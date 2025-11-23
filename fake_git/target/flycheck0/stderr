@@ -1,12 +1,88 @@
-   0.010006100s  INFO prepare_target{force=false package_id=fake_git v0.1.0 (C:\Informatique\l3\Programation_système\fake_repo2\fake_git) target="fake_git"}: cargo::core::compiler::fingerprint: stale: changed "C:\\Informatique\\l3\\Programation_système\\fake_repo2\\fake_git\\src\\main.rs"
-   0.010036600s  INFO prepare_target{force=false package_id=fake_git v0.1.0 (C:\Informatique\l3\Programation_système\fake_repo2\fake_git) target="fake_git"}: cargo::core::compiler::fingerprint:           (vs) "C:\\Informatique\\l3\\Programation_système\\fake_repo2\\fake_git\\target\\debug\\.fingerprint\\fake_git-53e957b3dd59a9f2\\dep-bin-fake_git"
-   0.010041800s  INFO prepare_target{force=false package_id=fake_git v0.1.0 (C:\Informatique\l3\Programation_système\fake_repo2\fake_git) target="fake_git"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 13408407230, nanos: 355741900 } < FileTime { seconds: 13408407239, nanos: 345890300 }
-   0.010192200s  INFO prepare_target{force=false package_id=fake_git v0.1.0 (C:\Informatique\l3\Programation_système\fake_repo2\fake_git) target="fake_git"}: cargo::core::compiler::fingerprint: fingerprint dirty for fake_git v0.1.0 (C:\Informatique\l3\Programation_système\fake_repo2\fake_git)/Check { test: false }/TargetInner { name: "fake_git", doc: true, ..: with_path("C:\\Informatique\\l3\\Programation_système\\fake_repo2\\fake_git\\src\\main.rs", Edition2024) }
-   0.010213700s  INFO prepare_target{force=false package_id=fake_git v0.1.0 (C:\Informatique\l3\Programation_système\fake_repo2\fake_git) target="fake_git"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "C:\\Informatique\\l3\\Programation_système\\fake_repo2\\fake_git\\target\\debug\\.fingerprint\\fake_git-53e957b3dd59a9f2\\dep-bin-fake_git", reference_mtime: FileTime { seconds: 13408407230, nanos: 355741900 }, stale: "C:\\Informatique\\l3\\Programation_système\\fake_repo2\\fake_git\\src\\main.rs", stale_mtime: FileTime { seconds: 13408407239, nanos: 345890300 } }))
-   0.010851800s  INFO prepare_target{force=false package_id=fake_git v0.1.0 (C:\Informatique\l3\Programation_système\fake_repo2\fake_git) target="fake_git"}: cargo::core::compiler::fingerprint: stale: changed "C:\\Informatique\\l3\\Programation_système\\fake_repo2\\fake_git\\src\\main.rs"
-   0.010862800s  INFO prepare_target{force=false package_id=fake_git v0.1.0 (C:\Informatique\l3\Programation_système\fake_repo2\fake_git) target="fake_git"}: cargo::core::compiler::fingerprint:           (vs) "C:\\Informatique\\l3\\Programation_système\\fake_repo2\\fake_git\\target\\debug\\.fingerprint\\fake_git-3a9d0cc1db2ca18e\\dep-test-bin-fake_git"
-   0.010872500s  INFO prepare_target{force=false package_id=fake_git v0.1.0 (C:\Informatique\l3\Programation_système\fake_repo2\fake_git) target="fake_git"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 13408407230, nanos: 355741900 } < FileTime { seconds: 13408407239, nanos: 345890300 }
-   0.010984800s  INFO prepare_target{force=false package_id=fake_git v0.1.0 (C:\Informatique\l3\Programation_système\fake_repo2\fake_git) target="fake_git"}: cargo::core::compiler::fingerprint: fingerprint dirty for fake_git v0.1.0 (C:\Informatique\l3\Programation_système\fake_repo2\fake_git)/Check { test: true }/TargetInner { name: "fake_git", doc: true, ..: with_path("C:\\Informatique\\l3\\Programation_système\\fake_repo2\\fake_git\\src\\main.rs", Edition2024) }
-   0.010998300s  INFO prepare_target{force=false package_id=fake_git v0.1.0 (C:\Informatique\l3\Programation_système\fake_repo2\fake_git) target="fake_git"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "C:\\Informatique\\l3\\Programation_système\\fake_repo2\\fake_git\\target\\debug\\.fingerprint\\fake_git-3a9d0cc1db2ca18e\\dep-test-bin-fake_git", reference_mtime: FileTime { seconds: 13408407230, nanos: 355741900 }, stale: "C:\\Informatique\\l3\\Programation_système\\fake_repo2\\fake_git\\src\\main.rs", stale_mtime: FileTime { seconds: 13408407239, nanos: 345890300 } }))
+   0.023847000s  INFO prepare_target{force=false package_id=fake_git v0.1.0 (C:\Informatique\l3\Programation_système\fake_repo2\fake_git) target="fake_git"}: cargo::core::compiler::fingerprint: fingerprint error for fake_git v0.1.0 (C:\Informatique\l3\Programation_système\fake_repo2\fake_git)/Check { test: false }/TargetInner { name: "fake_git", doc: true, ..: with_path("C:\\Informatique\\l3\\Programation_système\\fake_repo2\\fake_git\\src\\main.rs", Edition2024) }
+   0.023890800s  INFO prepare_target{force=false package_id=fake_git v0.1.0 (C:\Informatique\l3\Programation_système\fake_repo2\fake_git) target="fake_git"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Informatique\l3\Programation_système\fake_repo2\fake_git\target\debug\.fingerprint\fake_git-5673a19db955c376\bin-fake_git`
+
+Caused by:
+    Le fichier spécifié est introuvable. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.032506700s  INFO prepare_target{force=false package_id=toml v0.9.8 target="toml"}: cargo::core::compiler::fingerprint: fingerprint error for toml v0.9.8/Check { test: false }/TargetInner { ..: lib_target("toml", ["lib"], "C:\\Users\\rt200\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\toml-0.9.8\\src\\lib.rs", Edition2021) }
+   0.032542300s  INFO prepare_target{force=false package_id=toml v0.9.8 target="toml"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Informatique\l3\Programation_système\fake_repo2\fake_git\target\debug\.fingerprint\toml-e920e20eac308433\lib-toml`
+
+Caused by:
+    Le fichier spécifié est introuvable. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.034406100s  INFO prepare_target{force=false package_id=fake_git v0.1.0 (C:\Informatique\l3\Programation_système\fake_repo2\fake_git) target="fake_git"}: cargo::core::compiler::fingerprint: fingerprint error for fake_git v0.1.0 (C:\Informatique\l3\Programation_système\fake_repo2\fake_git)/Check { test: true }/TargetInner { name: "fake_git", doc: true, ..: with_path("C:\\Informatique\\l3\\Programation_système\\fake_repo2\\fake_git\\src\\main.rs", Edition2024) }
+   0.034423200s  INFO prepare_target{force=false package_id=fake_git v0.1.0 (C:\Informatique\l3\Programation_système\fake_repo2\fake_git) target="fake_git"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Informatique\l3\Programation_système\fake_repo2\fake_git\target\debug\.fingerprint\fake_git-34fc4ccee899f11d\test-bin-fake_git`
+
+Caused by:
+    Le fichier spécifié est introuvable. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking toml v0.9.8
     Checking fake_git v0.1.0 (C:\Informatique\l3\Programation_système\fake_repo2\fake_git)
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.14s
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.64s

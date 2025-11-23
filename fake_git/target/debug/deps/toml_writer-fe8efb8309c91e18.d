@@ -1,0 +1,10 @@
+C:\Informatique\l3\Programation_système\fake_repo2\fake_git\target\debug\deps\toml_writer-fe8efb8309c91e18.d: C:\Users\rt200\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\toml_writer-1.0.4\src\lib.rs C:\Users\rt200\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\toml_writer-1.0.4\src\integer.rs C:\Users\rt200\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\toml_writer-1.0.4\src\key.rs C:\Users\rt200\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\toml_writer-1.0.4\src\string.rs C:\Users\rt200\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\toml_writer-1.0.4\src\value.rs C:\Users\rt200\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\toml_writer-1.0.4\src\write.rs
+
+C:\Informatique\l3\Programation_système\fake_repo2\fake_git\target\debug\deps\libtoml_writer-fe8efb8309c91e18.rmeta: C:\Users\rt200\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\toml_writer-1.0.4\src\lib.rs C:\Users\rt200\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\toml_writer-1.0.4\src\integer.rs C:\Users\rt200\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\toml_writer-1.0.4\src\key.rs C:\Users\rt200\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\toml_writer-1.0.4\src\string.rs C:\Users\rt200\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\toml_writer-1.0.4\src\value.rs C:\Users\rt200\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\toml_writer-1.0.4\src\write.rs
+
+C:\Users\rt200\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\toml_writer-1.0.4\src\lib.rs:
+C:\Users\rt200\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\toml_writer-1.0.4\src\integer.rs:
+C:\Users\rt200\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\toml_writer-1.0.4\src\key.rs:
+C:\Users\rt200\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\toml_writer-1.0.4\src\string.rs:
+C:\Users\rt200\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\toml_writer-1.0.4\src\value.rs:
+C:\Users\rt200\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\toml_writer-1.0.4\src\write.rs:
